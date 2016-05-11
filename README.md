@@ -3,7 +3,8 @@
 This tool was created to dump Bluetooth LE (BLE) packets using SDR hardware. The captured BLE packets can either be saved to a PCAP file or displayed directly in Wireshark via a named pipe (FIFO). Gnu Radio is used to receive and demodulate the incoming BLE packets. The received packet bytes are transferred to ble_dump using a common Gnu Radio Message Sink.
 
 ## Gnu Radio flow-graph
-The following (general) Gnu Radio Companion (GRC) signal flow graph is used to generate the final flow-graph source code:
+The following (simplified) Gnu Radio Companion (GRC) signal flow graph is used to generate the final flow-graph source code:
+![GRC](https://raw.githubusercontent.com/drtyhlpr/ble_dump/master/grc/gr_ble.png)
 
 
 ## Command-line parameters
