@@ -1,4 +1,7 @@
 # ble_dump - SDR Bluetooth LE dumper
+
+News: C++/Gnu Radio BLE/SB/ESB module will be released soon, stay tuned...
+
 ## Introduction
 This tool was created to dump Bluetooth LE (BLE) packets using SDR hardware. The captured BLE packets can either be saved to a PCAP file or displayed directly in Wireshark via a named pipe (FIFO). Gnu Radio is used to receive and demodulate the incoming BLE packets. The received packet bytes are transferred to ble_dump using a common Gnu Radio Message Sink.
 
